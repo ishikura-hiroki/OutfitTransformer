@@ -24,9 +24,9 @@ from sklearn.metrics import roc_auc_score
 from model_args import Args
 args = Args()
 
-args.data_dir = '/home/datasets/polyvore_outfits'
+args.data_dir = '../polyvore_outfits'
 args.checkpoint_dir = './checkpoints'
-args.model_path = './checkpoints/outfit_transformer/cp/240608/AUC0.908.pth'
+args.model_path = './checkpoints/outfit_transformer/cp/240608/cp_auc0.91.pth'
     
 # Training Setting
 args.n_epochs = 4
